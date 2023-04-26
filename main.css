@@ -1,0 +1,175 @@
+body {
+    background-color: rgba(238, 238, 238, 0.733);
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+
+/*nav bar -->*/
+nav {
+    width: 100%;
+    height: 50px;
+    display: block;
+    background-color: rgb(37, 36, 39);
+    color: aliceblue;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+ul {
+    margin-top: -40px;
+    list-style-type: none;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    font-size: 18px;
+    display: block;
+    color: white;
+    padding: 15px;
+}
+
+li:hover {
+    background-color: rgba(136, 130, 189, 0.3);
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.titulo{
+    color: white;
+    font-size: 30px;
+    padding: 10px 0 0 15px;
+    text-decoration: none;
+}
+
+
+/*Banner--> */
+.content {
+    display: block;
+    text-align: center;
+}
+
+.info-nombre {
+    margin-top: 20px;
+    font-size: 50px;
+    color: rgb(172, 172, 172);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*boton-->*/
+#btn-mas {
+    border-radius: 5px;
+    width: 110px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    background-color: rgba(14, 14, 14, 0.733);
+    color: white;
+    transition: 900ms;
+}
+
+#btn-mas:hover {
+    color: black;
+    background-color: rgba(8, 124, 179, 0.322);
+    cursor: pointer;
+}
+
+/*Informacion-->*/
+#text1 {
+    margin-top: 5%;
+    font-size: 40px;
+    color: rgb(71, 71, 71);
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+hr{
+    margin-bottom: 20px;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(52, 80, 88, 0.438);
+    
+}
+
+.img-portafolio {
+    border-radius: 10px;
+    margin: 20px;
+    width: 500px;
+    height: auto;
+}
+
+.content-portafolio {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.content-habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.icon {
+    width: 70px !important;
+}
+
+.inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 700px;
+    background-image: url(macbook-touchbar-wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.inicio strong{
+    color: white;
+    animation: parpadeo 1s infinite;
+}
+.info{
+    align-self: center;
+}
+@keyframes parpadeo {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+
+
+.content-contacto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.contacto-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contacto-info h3{
+    color: black;
+}
+.icon-contacto{
+width: 40px !important;
+margin-right: 15px;
+  }
